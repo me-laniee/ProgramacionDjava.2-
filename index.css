@@ -1,0 +1,9 @@
+body{
+    width: 100%;
+    max-width: 40rem;
+}
+
+html{
+    font-size: 10px;
+    font-family: monospace;
+}

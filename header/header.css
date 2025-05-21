@@ -1,0 +1,76 @@
+.header{
+    width: 100%;
+    height: 6rem;
+
+    display: grid;
+    grid-template-columns: 6rem 1fr 6rem;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 2rem;
+    align-items: center;
+}
+.menu{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-color: beige;
+    width: 6rem;
+    height: 6rem;
+    border-radius: 100%;
+}
+.texto-nrj{
+    color: #fc6e2a;
+    font-weight: 800;
+    font-size: 1.2rem;
+
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end:2 ;
+
+    align-self: flex-end;
+}
+.texto-ng{
+    color: #676767;
+    font-weight: 500;
+    font-size: 1.4rem;
+
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end:3 ;
+}
+.btn-car{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+
+    background-color: black;
+    width: 4.5rem;
+    height: 4.5rem;
+    border-radius: 100%;
+}
+.car{
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: #fc6e2a;
+    border-radius: 100%;
+    color: white;
+    font-weight: 800;
+    font-size: 1.6rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+    right: 255px;
+    padding: 5px;
+    top: -5px;
+}
+
+.bag{
+    right: 1px;
+    position: absolute;
+}
